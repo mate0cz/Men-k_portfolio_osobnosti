@@ -8,7 +8,7 @@
 
 body{
     font-family: "Poppins", serif;
-    background-color: black;
+    background-color: white;
 }
 
 .nav-menu{
@@ -16,6 +16,9 @@ body{
     padding: 5px 20px;
     display: flex;
     align-items: center;
+    border-bottom: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .nav-link a{
@@ -44,11 +47,11 @@ body{
 
 .nav-links li{
     padding: 15px 10px;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 h1{
-    color: white;
+    color: black;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -67,45 +70,17 @@ h1{
     align-items: center;
 }
 
-.barcelona-logo{
-    height: 100px;
-    margin-right: 100px;
-}
-
-.messi-barcelona{
-    height: 400px;
-}
-
-.psg-logo{
-    height: 150px;
-    margin-left: 200px;
-}
-
-.messi-psg{
-    width: 400px;
-    margin-right: 100px;
-}
-
-.miami-logo{
-    height: 250px;
-    padding-bottom: 150px;
-}
-
-.messi-miami{
-    width: 400px;
-}
-
 .text-1{
-    color: white;
+    color: black;
     font-family: "Poppins", serif;
     font-size: 18px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
 
 .text-2{
-    color: white;
+    color: black;
     font-family: "Poppins", serif;
     font-size: 18px;
     display: flex;
@@ -113,12 +88,12 @@ h1{
 }
 
 .text-3{
-    color: white;
+    color: black;
     font-family: "Poppins", serif;
     font-size: 18px;
     display: flex;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 footer{
@@ -126,4 +101,72 @@ footer{
     color: black;
     display: flex;
     justify-content: center;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+.gallery-images img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 50px 5px 5px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.popup img {
+    height: 600px;
+    width: 600px;
+}
+
+.popup p {
+    margin-top: 10px;
+    text-align: justify;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.gallery-images:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.logos img{
+    width: 50px !important;
+    height: 50px !important;
+    margin: 0;
+}
+
+.logo-img{
+    height: 50px;
 }

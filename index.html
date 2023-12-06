@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <nav class="nav-menu">
@@ -23,18 +24,33 @@
         <p class="text-2">Tento argentinský maestro není pouze fotbalistou, je symbolem oddanosti, tvrdé práce a nezlomného úsilí. Jeho příběh je inspirací pro miliony fanoušků po celém světě.</p><br>
         <p class="text-3">Připojte se k oslavě fenomenálního Messiho a objevte jeho výjimečné dědictví ve světě fotbalu.</p>
 </div>
-    <div class="messi-main-page-images">
-        <div class="messi-main-page-img-1">
-            <a href="https://www.fcbarcelona.com/en/"><img class="barcelona-logo" src="images/barcelona-logo.png" alt="logo-barcelona"></a>
-            <img class="messi-barcelona" src="images/messi-1.png" alt="messi-1">
+    <div class="gallery">
+        <div class="gallery-images">
+            <div class="logo-img">
+            <img class="logos" src="images/barcelona-logo.png">
+            </div>
+            <img src="/images/barcelona-lionel-messi-removebg-preview.png" alt="Obrázek 1" onclick="openPopup('messi')">
         </div>
-        <a href="https://en.psg.fr/"><img class="psg-logo" src="images/psg-logo.png" alt="logo-psg"></a>
-        <img class="messi-psg" src="images/messi-psg.png" alt="messi-2">
-        <div>
+
+        <div class="gallery-images">
+            <div class="logo-img">
+            <img class="logos" src="images/logo-psg.png">
+            </div>
+            <img src="/images/lionel-messi-psg.png" alt="Obrázek 2" onclick="openPopup('')">
         </div>
-        <div>
-            <a href="https://www.intermiamicf.com/"><img class="miami-logo" src="images/miami-logo.png" alt="logo-miami"></a>
-            <img class="messi-miami" src="images/messi-miami.png" alt="messi-3">
+
+        <div class="gallery-images">
+            <div class="logo-img">
+            <img  class="logos" src="images/miami-logo.png">
+            </div>
+            <img src="/images/messi-miami.png" alt="Obrázek 3" onclick="openPopup('')">
+        </div>
+
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p id="popupText">Popis obrázku</p>
         </div>
     </div>
 </body>

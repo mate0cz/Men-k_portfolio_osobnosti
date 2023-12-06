@@ -11,33 +11,33 @@ h2{
 }
 
 h3{
-    color: white;
+    color: black;
     margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 50px;
     margin-bottom: 50px;
     font-size: 24px;
 }
 
 .životopis-p-1{
     font-size: 18px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: left;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 .životopis-h3-right{
     display: flex;
     justify-content: right;
-    margin-right: 25px;
+    margin-right: 50px;
 }
 
 .životopis-p-2{
     font-size: 18px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: right;
-    margin-right: 25px;
+    margin-right: 50px;
 }
 
 .životopis-p-1:hover{
@@ -52,12 +52,16 @@ h3:hover{
     color: red;
 }
 
+.životopis-h3-right:hover{
+    color: blue;
+}
+
 .životopis-p-2-down{
     font-size: 18px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: right;
-    margin-right: 25px;
+    margin-right: 50px;
     margin-bottom: 100px;
 }
 
