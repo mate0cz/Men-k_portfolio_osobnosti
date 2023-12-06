@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+h2{
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-size: 54px;
+    text-shadow: 2px 2px pink;
+}
+
+h3{
+    color: white;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.životopis-p-1{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: left;
+    margin-left: 25px;
+}
+
+.životopis-h3-right{
+    display: flex;
+    justify-content: right;
+    margin-right: 25px;
+}
+
+.životopis-p-2{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-right: 25px;
+}
+
+.životopis-p-1:hover{
+    font-weight: bold;
+}
+
+.životopis-p-2:hover{
+    font-weight: bold;
+}
+
+h3:hover{
+    color: red;
+}
+
+.životopis-p-2-down{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-right: 25px;
+    margin-bottom: 100px;
+}
+
+.životopis-p-2-down:hover{
+    font-weight: bold;
+}
