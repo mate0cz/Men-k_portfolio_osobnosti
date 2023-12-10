@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+h2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 54px;
+    text-shadow: 2px 2px darkgoldenrod;
+}
+
+.world-cup-trophy {
+    height: 350px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.world-cup-trophy-p{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.world-cup-trophy-p2{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.world-cup-trophy-p3{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.golden-ball-trophy{
+    height: 350px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.golden-ball-trophy-p{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.golden-ball-trophy-p-2{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.golden-ball-trophy-p-3{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.champions-league-trophy{
+    height: 350px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.champions-p{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.champions-p-2{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.champions-p-3{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    margin-bottom: 150px;
+}
+
